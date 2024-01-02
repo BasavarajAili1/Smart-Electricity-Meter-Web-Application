@@ -1,4 +1,4 @@
-# Smart-Electricity-Meter-Web-Application
+# ⚡ Smart-Electricity-Meter-Web-Application 
 <h5>📊 The demand for energy is increasing as a result of the growth in both population and 
 industrial development. To improve the energy efficiency, consumers need to be more aware 
 of their energy consumption. The aim is to provide the consumer and supplier 
@@ -32,6 +32,6 @@ and Web-Application</h5>
   <img align:"center" height="300" width="600" alt="recharge_info" src="https://github.com/BasavarajAili1/Smart-Electricity-Meter-Web-Application/assets/112578014/b39daa4b-bd3a-436d-9561-98e48cd0749f">
 </p>
 
-# This site is live on:
+# 🚀 This site is live on:
 <a href="https://augean-competitions.000webhostapp.com/WebSmartMeter/createnewaccount.php?Login=CREATE+NEW+ACCOUNT">SMART ENERGY METER WEBSITE</a>
 
