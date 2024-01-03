@@ -32,6 +32,6 @@ and Web-Application</h5>
   <img align:"center" height="300" width="600" alt="recharge_info" src="https://github.com/BasavarajAili1/Smart-Electricity-Meter-Web-Application/assets/112578014/b39daa4b-bd3a-436d-9561-98e48cd0749f">
 </p>
 
-# 🚀 This site is live on:
+# 🚀 Visit this site here:
 <a href="https://augean-competitions.000webhostapp.com/WebSmartMeter/createnewaccount.php?Login=CREATE+NEW+ACCOUNT">SMART ENERGY METER WEBSITE</a>
 
