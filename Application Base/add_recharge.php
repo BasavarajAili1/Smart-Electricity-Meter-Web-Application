@@ -9,8 +9,7 @@ if(isset($_POST['add'])) {
 	  date_default_timezone_set('Asia/calcutta');
       $date = date('d-m-y');
       $time = date('h:i:s');
-// 	  $v3=$_POST['f3'];
-// 	  $v4=$_POST['f4'];
+
 	  
 	  $sql="insert into web_smart_meter_recharge values('$meterId','$amount','$date','$time')";
 	  mysqli_query($conn,$sql);

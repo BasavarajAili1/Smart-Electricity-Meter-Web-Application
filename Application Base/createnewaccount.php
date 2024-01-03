@@ -152,27 +152,7 @@ if(isset($_POST['add'])) {
                                   <input type="submit" name="Login" value="Login">
                                   </form>
 							</div>
-                           <!--- <div class="form">
-                                <h2>Create an account</h2>
-                                <form action="#" method="post">
-                                    <input class="form-control" type="text" name="Username" pattern="[a-zA-Z]{6,20}$" placeholder="Username(6-20 characters)" required=" ">
-                                    <input class="form-control" type="password" name="Password" pattern="[a-zA-Z]{6,20}$" placeholder="Password(6-20 characters)" required=" ">
-                                    <input class="form-control" type="email" name="Email" placeholder="Email Address" required=" ">
-                                    <input class="form-control" type="text" id="phone" name="Phone" pattern="(7|8|9)\d{9}" maxlength="10" placeholder="Enter 10 digit valid mobile no." required=" ">
-
-                                    <input class="form-control" type="text" name="city" pattern="[a-zA-Z]+$" placeholder="City" required=" ">
-                                    <input class="form-control" type="text" name="pcode" pattern="[0-9]{6}$" placeholder="Pincode" required=" ">
-                                    <input class="form-control" type="text" name="state" pattern="[a-zA-Z]+$" placeholder="State" required=" ">
-
-                                    <textarea class="form-control" type="text" name="addr" placeholder="Address" required=" "></textarea>                                         
-                                    <input type="button" id="getotp" value="GET OTP" onclick="getOneTimePass()">
-                                    <input class="form-control" id="session" type="hidden" name="session">
-                                    <input class="form-control" type="text" name="otp" pattern="[0-9]{6}$" placeholder="One Time Password" required=" ">
-
-                                    <input type="submit" name="Register" value="Register">
-                                </form>
-                            </div>---->
-                          <!--- <div class="cta"><a href="forget.php">Forgot your password?</a>--->
+                        
                             </div>
                         </div>
                     </div>
@@ -194,56 +174,7 @@ if(isset($_POST['add'])) {
             </div>
             <div class="clearfix"></div>
         </div>
-        <!-- //banner -->
-        <!-- newsletter-top-serv-btm -->
-       <!--- <div class="newsletter-top-serv-btm">
-            <div class="container">
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    </div>
-                    <h3>Nam libero tempore</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                    </div>
-                    <h3>officiis debitis aut rerum</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                    </div>
-                    <h3>eveniet ut et voluptates</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>--->
-        <!-- //newsletter-top-serv-btm -->
-        <!-- newsletter -->
-       <!--- <div class="newsletter">
-            <div class="container">
-                <div class="w3agile_newsletter_left">
-                    <h3>sign up for our newsletter</h3>
-                </div>
-                <div class="w3agile_newsletter_right">
-                    <form action="#" method="post">
-                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {
-                                                    this.value = 'Email';}" required="">
-                        <input type="submit" value="subscribe now">
-                    </form>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>---->
-        <!-- //newsletter -->
-        <!-- footer -->
+       
 <?php //include('footer.php'); ?>
         <!-- //footer -->
         <!-- Bootstrap Core JavaScript -->
@@ -265,15 +196,7 @@ if(isset($_POST['add'])) {
         <!-- here stars scrolling icon -->
         <script type="text/javascript">
             $(document).ready(function () {
-                /*
-                 var defaults = {
-                 containerID: 'toTop', // fading element id
-                 containerHoverID: 'toTopHover', // fading element hover id
-                 scrollSpeed: 1200,
-                 easingType: 'linear' 
-                 };
-                 */
-
+   
                 $().UItoTop({easingType: 'easeOutQuart'});
 
             });

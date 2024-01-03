@@ -180,56 +180,7 @@ if (isset($_POST['LOGIN'])) {
             </div>
             <div class="clearfix"></div>
         </div>
-        <!-- //banner -->
-        <!-- newsletter-top-serv-btm -->
-       <!--- <div class="newsletter-top-serv-btm">
-            <div class="container">
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    </div>
-                    <h3>Nam libero tempore</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                    </div>
-                    <h3>officiis debitis aut rerum</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="col-md-4 wthree_news_top_serv_btm_grid">
-                    <div class="wthree_news_top_serv_btm_grid_icon">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                    </div>
-                    <h3>eveniet ut et voluptates</h3>
-                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
-                        saepe eveniet ut et voluptates repudiandae sint et.</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>--->
-        <!-- //newsletter-top-serv-btm -->
-        <!-- newsletter -->
-       <!--- <div class="newsletter">
-            <div class="container">
-                <div class="w3agile_newsletter_left">
-                    <h3>sign up for our newsletter</h3>
-                </div>
-                <div class="w3agile_newsletter_right">
-                    <form action="#" method="post">
-                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {
-                                                    this.value = 'Email';}" required="">
-                        <input type="submit" value="subscribe now">
-                    </form>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>---->
-        <!-- //newsletter -->
-        <!-- footer -->
+       
 <?php //include('footer.php'); ?>
         <!-- //footer -->
         <!-- Bootstrap Core JavaScript -->
@@ -251,14 +202,7 @@ if (isset($_POST['LOGIN'])) {
         <!-- here stars scrolling icon -->
         <script type="text/javascript">
             $(document).ready(function () {
-                /*
-                 var defaults = {
-                 containerID: 'toTop', // fading element id
-                 containerHoverID: 'toTopHover', // fading element hover id
-                 scrollSpeed: 1200,
-                 easingType: 'linear' 
-                 };
-                 */
+               
 
                 $().UItoTop({easingType: 'easeOutQuart'});
 
